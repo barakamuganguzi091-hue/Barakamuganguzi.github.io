@@ -37,11 +37,9 @@
      
 }
 body{
-    background-image: url("bg.jpeg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: #150023;
     color: white;
+    
 }
  ul{
     display: flex;
@@ -263,9 +261,13 @@ h2{
     padding: 1rem;
     border-radius: 17px;
     margin: 1rem;
+    transition: transform 1500ms ease-in-out;
 }
 .projects-items:hover{
     border: solid 1px white;
+    background-color: #000000;
+    color: rgb(255, 255, 255); 
+    transform: scale(1.02)
     
 }
 .projects-row1{
@@ -391,7 +393,7 @@ h2{
     border: solid 1px rgb(139, 23, 249);
     border-radius: 1rem;
     cursor: pointer;
-    line-height: 1.5;
+    line-height: 1.4;
     flex: 1 1 250px;
     font-size: large;
     font-family: manrope, sans-serif;
@@ -402,13 +404,13 @@ h2{
     justify-content: center;
     text-align: center;
     transition: transform 400ms ease-in-out;
-   
-
 }
 .doing-items:hover{
     transform: scale(1.2);
-    border: solid 2px black;
-    transform: translatey(-20px)
+    border: solid 3px rgb(139, 23, 249);
+    transform: translatey(-20px);
+    background-color: #b2b59a;
+    color:black
 }
 
 .doing-subhead{
